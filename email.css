@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./emailbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#email {
+  width: 20rem;
+  height: 2rem;
+  margin: 3rem;
+  outline: 0.5rem inset darkcyan;
+  outline-offset: 2rem;
+  outline-style: dotted;
+}
+
+#btn {
+  width: 8rem;
+  height: 3rem;
+  border: navajowhite;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  transition: background-color 0.5s;
+}
+
+#btn:hover {
+  background-color: aquamarine;
+}
+
+#message {
+  font-size: 2rem;
+  font-weight: 700;
+  color: darkmagenta;
+}
